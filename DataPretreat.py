@@ -1,6 +1,8 @@
 ﻿'''
 需要用到的一些工具函数
 '''
+import csv
+
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
@@ -32,7 +34,7 @@ def show_src_seg(image_array, maskimg, index, rows=3, start_with=0, show_every=1
         ax[i, 1].set_title('mask %d' % ind)
         ax[i, 1].imshow(maskimg[ind], cmap='gray')
         ax[i, 1].axis('off')
-    name = "./LITS/" + str(index) + ".png"
+    name = "./ResultComp/" + str(index) + ".png"
     plt.savefig(name)
 
 
