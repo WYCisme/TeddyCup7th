@@ -1,6 +1,6 @@
 # TeddyCup7th
         第七届泰迪杯数据挖掘挑战赛-B题-直肠癌肿瘤分割
-        
+ [题目介绍](http://www.tipdm.org/bdrace/tzjingsai/20181226/1544.html?cName=ral_101#sHref)        
 
 ## 1.区域分割（主要）
     * DataPretreat.py   
